@@ -1,0 +1,8 @@
+.vscode
+Makefile
+CMakeFiles
+CMakeCache.txt
+location.txt
+cmake_install.cmake
+chatclient
+chatserver

@@ -1,0 +1,5 @@
+include_directories(include/ ${Python_INCLUDE_DIRS})
+add_executable(chatserver src/chat_server.cpp)
+target_link_libraries(chatserver PUBLIC pthread)
+target_link_libraries(chatserver PUBLIC ${Python3_LIBRARIES})
+target_include_directories(chatserver PUBLIC ${Python3_INCLUDE_DIRS})

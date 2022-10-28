@@ -1,0 +1,8 @@
+project("FAMILIY_CHAT")
+cmake_minimum_required(VERSION 3.24)
+find_package (Python3 COMPONENTS Interpreter Development required)
+find_package (Python COMPONENTS Interpreter Development required)
+message("@@@@@${Python_INCLUDE_DIRS}")
+message("@@@@@${Python3_INCLUDE_DIRS}")
+add_subdirectory(server)
+add_subdirectory(client)
