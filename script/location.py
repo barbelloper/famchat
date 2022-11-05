@@ -15,7 +15,6 @@ def current_location():
     else:
         location = json.loads(here_req.text)
         addr = geocoding_reverse(str(location["geoplugin_latitude"]) +', '+ str(location["geoplugin_longitude"]))
-        addr = geocoding_reverse("37.5112, 126.9741")
 
     return addr
 

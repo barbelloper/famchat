@@ -10,7 +10,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 #include "chat_client.h"
-#include <python3.6m/Python.h>
+#include <Python.h>
 
 #define MAXLINE     1000
 #define NAME_LEN    20
