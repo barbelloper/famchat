@@ -1,5 +1,5 @@
 project("FAMILIY_CHAT")
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.22)
 find_package (Python3 COMPONENTS Interpreter Development required)
 find_package (Python COMPONENTS Interpreter Development required)
 message("@@@@@${Python_INCLUDE_DIRS}")

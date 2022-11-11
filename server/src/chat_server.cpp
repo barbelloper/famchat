@@ -1,5 +1,4 @@
 #include "chat_server.h"
-#include <python2.7/Python.h>
 
 int ChatServer::openSocket()
 {
